@@ -1,5 +1,6 @@
-#Pre-requisites
+# Pre-requisites
 
 - Tmux
 - Zsh
 - Neovim
+- Neofetch
