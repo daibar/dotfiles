@@ -3,6 +3,7 @@
 - Zsh
 - Neovim
 - Neofetch
+- Vimwiki
 
 # Installation Procedure
 1. Move .tmux.conf to ~
