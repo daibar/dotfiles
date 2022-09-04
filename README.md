@@ -2,8 +2,8 @@
 - Tmux
 - Zsh
 - Neovim
+- Vim-Plug
 - Neofetch
-- Vimwiki
 
 # Installation Procedure
 1. Move .tmux.conf to ~
@@ -11,3 +11,4 @@
 3. Move .oh-my-zsh to ~
 4. Move .config to ~
 5. Move .gitconfig to ~
+6. Run Plug-Install in nvim
