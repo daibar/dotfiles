@@ -1,7 +1,7 @@
 # Pre-requisites
 - Alacrity
 - Tmux
-- Zsh
+- Oh My Zsh
 - Neovim
 - Vim-Plug
 - Neofetch
