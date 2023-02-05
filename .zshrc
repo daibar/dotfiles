@@ -26,9 +26,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export TERM="screen-256color"
 alias tmux="TERM=screen-256color-bce tmux"
 
-# NPM token
-export NPM_TOKEN="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"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
