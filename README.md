@@ -1,4 +1,5 @@
 # Pre-requisites
+- Alacrity
 - Tmux
 - Zsh
 - Neovim
