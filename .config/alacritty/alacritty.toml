@@ -4,11 +4,11 @@ program = "wsl"
 args = ["--cd ~", ]
 
 [font]
-# change to nerd font available from os
+# change to nerd font available from os (i.e. JetBrainsMono Nerd Font)
 normal.family = "Hack Nerd Font Mono"
 bold.family = "Hack Nerd Font Mono"
 italic.family = "Hack Nerd Font Mono"
-size = 10
+size = 10 # change to 12 on macos
 
 [colors.primary]
 background = "#1a1b26"
