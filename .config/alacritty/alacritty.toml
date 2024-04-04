@@ -1,3 +1,4 @@
+# for windows / wsl add this configuration to /mnt/c/Users/{user}/AppData/Romain/alacritty
 [shell]
 program = "wsl"
 args = ["--cd ~", ]
