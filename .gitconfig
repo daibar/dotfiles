@@ -1,8 +1,0 @@
-[user]
-	email = dannyaibar@gmail.com
-	name = daibar
-[core]
-	editor = vim
-[credential]
-	helper = cache
-

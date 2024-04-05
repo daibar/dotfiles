@@ -1,12 +1,12 @@
+# for windows / wsl add this configuration to /mnt/c/Users/{user}/AppData/Romain/alacritty
 [shell]
 program = "wsl"
 args = ["--cd ~", ]
 
 [font]
-normal.family = "Hack Nerd Font Mono"
-bold.family = "Hack Nerd Font Mono"
-italic.family = "Hack Nerd Font Mono"
-size = 10
+# change to nerd font available from os as necessary
+normal.family = "MesloLGS NF"
+size = 10 # change to 12 on macos
 
 [colors.primary]
 background = "#1a1b26"
