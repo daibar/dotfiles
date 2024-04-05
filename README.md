@@ -1,38 +1,33 @@
 # WM / Terminal / Dotfile Installation Instructions
- 
 * font:
 	* install best fonts for powerlevel10k:
-	* https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation
+	https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation
 
 
 ## OS Specific Instructions
 ### MacOS
-
 * [homebrew](https://brew.sh/)
 * [yabai](https://github.com/koekeishiya/yabai):
 	* follow instructions using homebrew
-	* copy `yabairc` into `.config/yabai/yabairc`
+	* copy `yabairc` into `.config/yabai/`
 * [skhd](https://github.com/koekeishiya/skhd):
 	* follow instructions using homebrew
-	* copy `skhd` into `.config/skhd/skhdrc`
+	* copy `skhdrc` into `.config/skhd/`
 * [alacritty](https://github.com/alacritty/alacritty):
 	* install [dmg](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
 	* Run using workaround:
 	https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
-	* copy `alacritty.toml` into `.config/alacritty`
+	* copy `alacritty.toml` into `.config/alacritty/`
 
-
-### Windows
-
+### Windows 10/11
 * [glazewm](https://github.com/glzr-io/glazewm):
-	* Install
-	* copy `config.yaml` into `C:\Users\<YOUR_USER>\.glaze-wm\config.yaml`
+	* install [exe](https://github.com/glzr-io/GlazeWM/releases)
+	* copy `config.yaml` into `C:\Users\<YOUR_USER>\.glaze-wm\`
 * [alacritty](https://github.com/alacritty/alacritty):
 	* install [exe](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
-	* copy `alacritty.toml` into `C:\Users\<YOUR_USER>\%APPDATA%\roaming\alacritty`
+	* copy `alacritty.toml` into `C:\Users\<YOUR_USER>\%APPDATA%\roaming\alacritty\`
 * wsl:
 	* install Ubuntu (other distros may have limted systemd support)
 
 ## Home-Manager
-
 Complete installation of dotfiles using home-manager instructions in [nix-config](https://github.com/daibar/nix-config)
