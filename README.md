@@ -1,5 +1,10 @@
 # WM / Terminal / Dotfile Installation Instructions
  
+* font:
+	* install best fonts for powerlevel10k:
+	* https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation
+
+
 ## OS Specific Instructions
 ### MacOS
 
@@ -10,12 +15,11 @@
 * [skhd](https://github.com/koekeishiya/skhd):
 	* follow instructions using homebrew
 	* copy `skhd` into `.config/skhd/skhdrc`
-* fonts
 * [alacritty](https://github.com/alacritty/alacritty):
-	* Install via [dmg](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
+	* install [dmg](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
 	* Run using workaround:
-		* https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
-	* copy `alacritty.toml` into ...
+	https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
+	* copy `alacritty.toml` into `.config/alacritty`
 
 
 ### Windows
@@ -23,9 +27,9 @@
 * [glazewm](https://github.com/glzr-io/glazewm):
 	* Install
 	* copy `config.yaml` into `C:\Users\<YOUR_USER>\.glaze-wm\config.yaml`
-* fonts
 * [alacritty](https://github.com/alacritty/alacritty):
-	* Install via [exe](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
+	* install [exe](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
+	* copy `alacritty.toml` into `C:\Users\<YOUR_USER>\%APPDATA%\roaming\alacritty`
 * wsl:
 	* install Ubuntu (other distros may have limted systemd support)
 
