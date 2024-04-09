@@ -31,5 +31,6 @@
 ## Home-Manager
 * [nix](https://nixos.org/download/):
 	* install using shell script
- 	* install home-manager with [standalone installation](https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone) 
+ 	* install home-manager with [standalone installation](https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone)
+  	* copy `nix.conf` into `.config/nix/`
 Complete installation of dotfiles using home-manager instructions in [nix-config](https://github.com/daibar/nix-config)
