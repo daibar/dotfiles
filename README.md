@@ -29,4 +29,7 @@
 	* install Ubuntu (other distros may have limted systemd support)
 
 ## Home-Manager
+* [nix](https://nixos.org/download/):
+	* install using shell script
+ 	* install home-manager with [standalone installation](https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone) 
 Complete installation of dotfiles using home-manager instructions in [nix-config](https://github.com/daibar/nix-config)
