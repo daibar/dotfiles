@@ -14,8 +14,7 @@
 	* follow instructions using homebrew
 	* copy `skhdrc` into `.config/skhd/`
 * [alacritty](https://github.com/alacritty/alacritty):
-	* install [dmg](https://github.com/alacritty/alacritty/releases/tag/v0.13.2)
-	* Run using workaround:
+	* Install using workaround:
 	https://github.com/alacritty/alacritty/issues/4673#issuecomment-771291615
 	* copy `alacritty.toml` into `.config/alacritty/`
 
