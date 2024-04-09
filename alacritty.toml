@@ -1,7 +1,7 @@
 # for windows / wsl add this configuration to /mnt/c/Users/{user}/AppData/Romain/alacritty
-[shell]
-program = "wsl"
-args = ["--cd ~", ]
+#[shell]
+#program = "wsl"
+#args = ["--cd ~", ]
 
 [font]
 # change to nerd font available from os as necessary
